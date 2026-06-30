@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official personal website of Ahmed Fadel R. Salem - Medical Student, Technology Specialist, and Microsoft Certified International Trainer on AI. Discover my achievements, certificates, and skills.">
+    <meta name="author" content="Ahmed Fadel R. Salem">
+    <title>Ahmed Fadel R. Salem | Medical Student & Technology Specialist</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav id="navbar" class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">A.</span>Fadel
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#education" class="mobile-link">Education</a></li>
+            <li><a href="#experience" class="mobile-link">Experience</a></li>
+            <li><a href="#skills" class="mobile-link">Skills</a></li>
+            <li><a href="#certificates" class="mobile-link">Certificates</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="hero">
+        <div class="hero-bg-gradients">
+            <div class="gradient-sphere blob-1"></div>
+            <div class="gradient-sphere blob-2"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-container fade-in">
+                    <span class="profile-badge"><i class="fa-solid fa-stethoscope"></i> Medicine & Tech</span>
+                </div>
+                <h1 class="hero-title fade-in">
+                    Ahmed Fadel <br><span class="gradient-text">Rizk Salem</span>
+                </h1>
+                <p class="hero-subtitle fade-in">
+                    Medical Student, Technology Specialist, and Microsoft Certified International Trainer on AI. Balancing clinical excellence with cutting-edge technological innovation.
+                </p>
+                <div class="hero-ctas fade-in">
+                    <a href="assets/ahmed_fadel_cv.pdf" download class="btn btn-primary" id="btn-download-cv">
+                        <i class="fa-solid fa-file-arrow-down"></i> Download CV
+                    </a>
+                    <a href="#certificates" class="btn btn-secondary">
+                        <i class="fa-solid fa-award"></i> View Certificates
+                    </a>
+                </div>
+                <div class="hero-socials fade-in">
+                    <a href="mailto:mrabofadell@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="tel:+201012827615" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+                    <a href="https://maps.google.com/?q=Damietta,Egypt" target="_blank" rel="noopener" aria-label="Location"><i class="fa-solid fa-location-dot"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper fade-in">
+                <div class="avatar-ring">
+                    <img src="assets/avatar.png" alt="Ahmed Fadel Rizk Salem" class="avatar-img">
+                </div>
+                <div class="floating-badge badge-top-right">
+                    <i class="fa-solid fa-microchip-ai"></i>
+                    <span>AI Trainer</span>
+                </div>
+                <div class="floating-badge badge-bottom-left">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <span>ACLS Provider</span>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down-indicator" aria-label="Scroll to About me">
+            <span class="mouse-icon">
+                <span class="wheel"></span>
+            </span>
+        </a>
+    </header>
+
+    <!-- Key Stats Section -->
+    <section class="stats-section">
+        <div class="container stats-container">
+            <div class="stat-card glass-card">
+                <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="stat-info">
+                    <h3 class="stat-number">MNU</h3>
+                    <p class="stat-label">Faculty of Medicine</p>
+                </div>
+            </div>
+            <div class="stat-card glass-card">
+                <div class="stat-icon"><i class="fa-solid fa-robot"></i></div>
+                <div class="stat-info">
+                    <h3 class="stat-number">Certified</h3>
+                    <p class="stat-label">MS AI Trainer</p>
+                </div>
+            </div>
+            <div class="stat-card glass-card">
+                <div class="stat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="stat-info">
+                    <h3 class="stat-number">Expert</h3>
+                    <p class="stat-label">ACLS & Sports Med</p>
+                </div>
+            </div>
+            <div class="stat-card glass-card">
+                <div class="stat-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <div class="stat-info">
+                    <h3 class="stat-number">Cisco / MS</h3>
+                    <p class="stat-label">IT Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle-text">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text-content">
+                    <h3>Synthesizing Healthcare & Advanced Technology</h3>
+                    <p>
+                        I am a 21-year-old medical student at Mansoura National University, deeply fascinated by healthcare and the intricate complexity of the human body. Unlike traditional medical paths, I actively bridge the gap between medicine and tech—backed by official certifications from **Cisco** and **Microsoft** in IT management and AI training.
+                    </p>
+                    <p>
+                        I excel at balancing the analytical precision of computer science with the empathetic, hands-on care required in medicine. This interdisciplinary approach positions me to drive innovation in digital health systems, AI in medicine, and automated clinical workflows.
+                    </p>
+                    <p>
+                        My ultimate professional goal is to become a **General Surgery Surgeon**—the ultimate demonstration of precision and medical expertise. With the supportive partnership of my future wife, I aspire to pursue advanced, high-level surgical training in the UK and US to combine global medical standards with local healthcare excellence.
+                    </p>
+                    <div class="personal-details">
+                        <div class="detail-item">
+                            <span class="detail-name">Email:</span>
+                            <span class="detail-val"><a href="mailto:mrabofadell@gmail.com">mrabofadell@gmail.com</a></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-name">Phone:</span>
+                            <span class="detail-val"><a href="tel:+201012827615">+20 101 282 7615</a></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-name">Address:</span>
+                            <span class="detail-val">Damietta, Egypt</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-name">Age:</span>
+                            <span class="detail-val">21 Years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visuals">
+                    <div class="quote-card glass-card">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <p class="quote-text">
+                            "Balancing medicine and technology allows me to look at patient care through a different lens—using data and systems to scale clinical outcomes."
+                        </p>
+                        <div class="quote-author">- Ahmed Fadel</div>
+                    </div>
+                    <div class="tech-stack-badges">
+                        <h4>Expertise Pillars</h4>
+                        <div class="badge-flex">
+                            <span class="glow-tag tag-med"><i class="fa-solid fa-syringe"></i> General Surgery</span>
+                            <span class="glow-tag tag-ai"><i class="fa-solid fa-brain"></i> Artificial Intelligence</span>
+                            <span class="glow-tag tag-tech"><i class="fa-solid fa-server"></i> IT & Network Systems</span>
+                            <span class="glow-tag tag-clinical"><i class="fa-solid fa-heart-pulse"></i> Clinical Research</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section section-padding alt-bg">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle-text">My Academic Path</span>
+                <h2 class="section-title">Education</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="education-grid">
+                <!-- MNU Card -->
+                <div class="edu-card glass-card">
+                    <div class="edu-icon"><i class="fa-solid fa-university"></i></div>
+                    <div class="edu-date">2021 - Present</div>
+                    <h3 class="edu-degree">Faculty of Medicine</h3>
+                    <h4 class="edu-school">Mansoura National University</h4>
+                    <p class="edu-desc">
+                        Undergoing rigorous clinical and academic training in medicine and surgery. Engaged in multiple clinical rotations and clinical research projects.
+                    </p>
+                </div>
+                <!-- Secondary School Card -->
+                <div class="edu-card glass-card">
+                    <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+                    <div class="edu-date">Secondary Education</div>
+                    <h3 class="edu-degree">Secondary School Degree</h3>
+                    <h4 class="edu-school">AbuBakrAl-Siddiq Secondary School</h4>
+                    <p class="edu-desc">
+                        Completed secondary education with top honors in New Damietta, setting the foundation for medical school admission.
+                    </p>
+                </div>
+                <!-- Al-Khaleej National School Card -->
+                <div class="edu-card glass-card">
+                    <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="edu-date">Elementary & Preparatory</div>
+                    <h3 class="edu-degree">Early Education</h3>
+                    <h4 class="edu-school">Al-Khaleej National School</h4>
+                    <p class="edu-desc">
+                        Completed primary and preparatory school in Riyadh, Saudi Arabia, developing a strong multicultural foundation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section (Timeline) -->
+    <section id="experience" class="experience-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle-text">Journey & Milestones</span>
+                <h2 class="section-title">Experience & Achievements</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <!-- Timeline item 1 -->
+                <div class="timeline-item left-item">
+                    <div class="timeline-dot"><i class="fa-solid fa-user-doctor"></i></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">2021 - Present</span>
+                        <h3>Medical Student & Researcher</h3>
+                        <h4 class="timeline-company">Mansoura National University</h4>
+                        <p>
+                            Participating in third and fourth-year clinical rounds. Undergoing hands-on training under senior consultants. Actively involved in clinical research and scientific paper reviews.
+                        </p>
+                        <div class="timeline-achievement">
+                            <i class="fa-solid fa-circle-check"></i> Obtained numerous recommendations and nominations from attending physicians during third and fourth-year clinical rounds.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline item 2 -->
+                <div class="timeline-item right-item">
+                    <div class="timeline-dot"><i class="fa-solid fa-kit-medical"></i></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">2021</span>
+                        <h3>Distinguished Doctor Role (COVID-19)</h3>
+                        <h4 class="timeline-company">Healthcare Initiative</h4>
+                        <p>
+                            Honored with a Distinguished Doctor certificate for outstanding service, patient monitoring, and supporting roles during the peak of the COVID-19 pandemic in 2021.
+                        </p>
+                        <div class="timeline-achievement">
+                            <i class="fa-solid fa-award"></i> COVID-19 Pandemic Dedicated Volunteer Honors
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline item 3 -->
+                <div class="timeline-item left-item">
+                    <div class="timeline-dot"><i class="fa-solid fa-microscope"></i></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">Research Project</span>
+                        <h3>Research Quality Recognition</h3>
+                        <h4 class="timeline-company">Najida Academy for Scientific Research</h4>
+                        <p>
+                            Awarded a Certificate of Quality and Appreciation for contributions to scientific research methodology and medical data synthesis.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline item 4 -->
+                <div class="timeline-item right-item">
+                    <div class="timeline-dot"><i class="fa-solid fa-prescription-bottle-medical"></i></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">Professional Training</span>
+                        <h3>Pharmacy Quality & Experience Certificate</h3>
+                        <h4 class="timeline-company">Lubna Pharmacies</h4>
+                        <p>
+                            Successfully trained and obtained validation in clinical drug interaction, pharmacy management, and patient counseling, certifying competency as a medical professional.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Timeline item 5 -->
+                <div class="timeline-item left-item">
+                    <div class="timeline-dot"><i class="fa-solid fa-book-quran"></i></div>
+                    <div class="timeline-content glass-card">
+                        <span class="timeline-date">Spiritual & Mental Discipline</span>
+                        <h3>Holy Quran Memorizer (Ijazah)</h3>
+                        <h4 class="timeline-company">Ashab Al-Maymanah Academy</h4>
+                        <p>
+                            Successfully memorized the Holy Quran and holds an authorized Ijazah (license/certification), showcasing exceptional mental discipline, dedication, and focus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding alt-bg">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle-text">What I Excel At</span>
+                <h2 class="section-title">Skills & Competencies</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="skills-tabs">
+                <button class="skills-tab-btn active" data-tab="medical">Medical & Clinical</button>
+                <button class="skills-tab-btn" data-tab="technology">Technology & AI</button>
+                <button class="skills-tab-btn" data-tab="soft">Professional & Personal</button>
+            </div>
+
+            <!-- Tab Contents -->
+            <div class="skills-content-wrapper">
+                <!-- Medical Skills Tab -->
+                <div class="skills-tab-content active" id="medical">
+                    <div class="skills-grid">
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">General Surgery Principles</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Advanced Cardiovascular Life Support (ACLS)</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Sports Medicine & Injuries</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">First Aid & Trauma Management</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Clinical Drug Interactions</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Scientific Research Methodology</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technology Skills Tab -->
+                <div class="skills-tab-content" id="technology">
+                    <div class="skills-grid">
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Microsoft AI Training & Curriculum Development</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Cisco Network Design & Management</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Microsoft Office Suite (Word, Excel Expert, PPT, Access)</span>
+                                <span class="skill-percent">100%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Medical Informatics & EMR Systems</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills Tab -->
+                <div class="skills-tab-content" id="soft">
+                    <div class="skills-grid">
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Critical Thinking</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Structured Organization</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Interdisciplinary Teamwork</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card glass-card">
+                            <div class="skill-info">
+                                <span class="skill-name">Meeting Strict Deadlines</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages-grid">
+                        <h4>Language Proficiencies</h4>
+                        <div class="lang-bars">
+                            <div class="lang-item">
+                                <span class="lang-name">Arabic (Native)</span>
+                                <div class="dots"><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span></div>
+                            </div>
+                            <div class="lang-item">
+                                <span class="lang-name">English (Fluent)</span>
+                                <div class="dots"><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot"></span></div>
+                            </div>
+                            <div class="lang-item">
+                                <span class="lang-name">French (Basic / Intermediate)</span>
+                                <div class="dots"><span class="dot active"></span><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle-text">Validated Credentials</span>
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="certificates-grid">
+                <!-- Microsoft AI Trainer Certificate (CSS Badged Card) -->
+                <div class="cert-card glass-card custom-cert-badge">
+                    <div class="cert-header">
+                        <div class="cert-issuer">MICROSOFT</div>
+                        <div class="cert-badge-glow"><i class="fa-solid fa-robot"></i></div>
+                    </div>
+                    <div class="cert-body">
+                        <h3>Certified International Trainer</h3>
+                        <p class="cert-specialty">Artificial Intelligence (AI)</p>
+                        <p class="cert-desc">Recognized by Microsoft for global technical training, AI concepts, curriculum delivery, and cognitive technologies translation.</p>
+                    </div>
+                    <div class="cert-footer">
+                        <span class="status-verified"><i class="fa-solid fa-circle-check"></i> Certified</span>
+                    </div>
+                </div>
+
+                <!-- AHA Certificate Card -->
+                <div class="cert-card glass-card clickable-cert" data-img="assets/cert_aha.png" data-title="HeartCode® ACLS - American Heart Association" data-desc="Successfully completed the requirements for the AHA Advanced Cardiovascular Life Support (ACLS) online portion, verifying expert skills in managing cardiovascular emergencies, resuscitation, and cardiac arrest. (AHA-H02476901)">
+                    <div class="cert-image-preview">
+                        <img src="assets/cert_aha.png" alt="AHA ACLS Certificate">
+                        <div class="preview-overlay">
+                            <span class="view-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-body-plain">
+                        <div class="cert-meta">AMERICAN HEART ASSOCIATION</div>
+                        <h3>HeartCode® ACLS Portion</h3>
+                        <p class="cert-date-text">Completed: Jan 31, 2026</p>
+                    </div>
+                </div>
+
+                <!-- FIFA Certificate Card -->
+                <div class="cert-card glass-card clickable-cert" data-img="assets/cert_fifa.png" data-title="FIFA Diploma in Football Medicine" data-desc="Awarded by Fédération Internationale de Football Association (FIFA) for completing the clinical coursework in football-related sports injuries, rehabilitation, nutrition, and on-field emergency management.">
+                    <div class="cert-image-preview">
+                        <img src="assets/cert_fifa.png" alt="FIFA Diploma Certificate">
+                        <div class="preview-overlay">
+                            <span class="view-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-body-plain">
+                        <div class="cert-meta">FIFA</div>
+                        <h3>Diploma in Football Medicine</h3>
+                        <p class="cert-date-text">Completed: Dec 25, 2025</p>
+                    </div>
+                </div>
+
+                <!-- Stanford Medicine Card -->
+                <div class="cert-card glass-card clickable-cert" data-img="assets/cert_stanford_food.png" data-title="Introduction to Food and Health - Stanford Medicine" data-desc="Certified by Stanford University School of Medicine for participating in the food and health educational program, validating understanding of nutritional science, public health, and healthy eating behaviors. (2.50 AMA PRA Category 1 Credits™)">
+                    <div class="cert-image-preview">
+                        <img src="assets/cert_stanford_food.png" alt="Stanford Medicine Certificate">
+                        <div class="preview-overlay">
+                            <span class="view-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-body-plain">
+                        <div class="cert-meta">STANFORD UNIVERSITY</div>
+                        <h3>Introduction to Food and Health</h3>
+                        <p class="cert-date-text">Completed: Jul 15, 2024</p>
+                    </div>
+                </div>
+
+                <!-- Cisco CCNA Card -->
+                <div class="cert-card glass-card clickable-cert" data-img="assets/cert_ccna.png" data-title="Cisco Certified Network Associate (CCNA) Routing and Switching" data-desc="Successfully completed Cisco exam requirements and recognized as a Cisco Certified Network Associate Routing and Switching. Certified in network fundamentals, LAN/WAN technologies, routing, switching, infrastructure services, and network security. (Verification No. 422274169231JSVN)">
+                    <div class="cert-image-preview">
+                        <img src="assets/cert_ccna.png" alt="Cisco CCNA Certificate">
+                        <div class="preview-overlay">
+                            <span class="view-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-body-plain">
+                        <div class="cert-meta">CISCO SYSTEMS</div>
+                        <h3>Cisco CCNA (Routing & Switching)</h3>
+                        <p class="cert-date-text">Completed: May 5, 2018</p>
+                    </div>
+                </div>
+
+                <!-- Mansoura Parasites Card -->
+                <div class="cert-card glass-card clickable-cert" data-img="assets/cert_parasites.png" data-title="Parasites & Cancer: An Under-represented Relation to be Explored - Attendance" data-desc="Certificate of Attendance awarded by the Medical Parasitology Department at Mansoura University Faculty of Medicine for active participation in the Scientific Day focusing on the unexplored correlation between parasitic infections and cancer development.">
+                    <div class="cert-image-preview">
+                        <img src="assets/cert_parasites.png" alt="Parasites and Cancer Attendance Certificate">
+                        <div class="preview-overlay">
+                            <span class="view-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-body-plain">
+                        <div class="cert-meta">MANSOURA UNIVERSITY</div>
+                        <h3>Scientific Day: Parasites & Cancer</h3>
+                        <p class="cert-date-text">Completed: Mar 13, 2023</p>
+                    </div>
+                </div>
+
+                <!-- MOS Certificate Card -->
+                <div class="cert-card glass-card clickable-cert" data-img="assets/cert_mos.png" data-title="Microsoft Office Specialist (MOS) Expert" data-desc="Recognized as an expert in Microsoft Office applications. Credentials include Office Word 2019, Excel 2019, Powerpoint 2019, Access 2019, and Excel 2019 Expert level. Verification code: o3k7-uSRY.">
+                    <div class="cert-image-preview">
+                        <img src="assets/cert_mos.png" alt="MOS Expert Certificate">
+                        <div class="preview-overlay">
+                            <span class="view-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-body-plain">
+                        <div class="cert-meta">MICROSOFT</div>
+                        <h3>Microsoft Office Specialist</h3>
+                        <p class="cert-date-text">Completed: Jan 5, 2021</p>
+                    </div>
+                </div>
+
+                <!-- Minecraft Hour of Code Card -->
+                <div class="cert-card glass-card clickable-cert" data-img="assets/cert_hourofcode_minecraft.jpg" data-title="Hour of Code: Minecraft Completion" data-desc="Awarded by Microsoft and Code.org for successful completion of the Hour of Code Minecraft course, demonstrating a foundational understanding of computer science concepts and logic.">
+                    <div class="cert-image-preview">
+                        <img src="assets/cert_hourofcode_minecraft.jpg" alt="Minecraft Hour of Code Certificate">
+                        <div class="preview-overlay">
+                            <span class="view-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-body-plain">
+                        <div class="cert-meta">MICROSOFT / CODE.ORG</div>
+                        <h3>Hour of Code: Minecraft</h3>
+                        <p class="cert-date-text">Completed: Dec 2020</p>
+                    </div>
+                </div>
+
+                <!-- Code.org Hour of Code Card -->
+                <div class="cert-card glass-card clickable-cert" data-img="assets/cert_hourofcode_codeorg.jpg" data-title="Hour of Code: Code.org Completion" data-desc="Awarded by Code.org for successful completion of the Hour of Code course, demonstrating a foundational understanding of computer science and logic principles.">
+                    <div class="cert-image-preview">
+                        <img src="assets/cert_hourofcode_codeorg.jpg" alt="Code.org Hour of Code Certificate">
+                        <div class="preview-overlay">
+                            <span class="view-btn"><i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-body-plain">
+                        <div class="cert-meta">CODE.ORG</div>
+                        <h3>Hour of Code: Code.org</h3>
+                        <p class="cert-date-text">Completed: Hour of Code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding alt-bg">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle-text">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info-cards">
+                    <div class="info-item glass-card">
+                        <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="info-text">
+                            <h4>Email Address</h4>
+                            <p><a href="mailto:mrabofadell@gmail.com">mrabofadell@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item glass-card">
+                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="info-text">
+                            <h4>Phone / Mobile</h4>
+                            <p><a href="tel:+201012827615">+20 101 282 7615</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-item glass-card">
+                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="info-text">
+                            <h4>Location</h4>
+                            <p>Damietta, Egypt (Mansoura University)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper glass-card">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-name">Your Name</label>
+                                <input type="text" id="form-name" required placeholder="e.g. John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Your Email</label>
+                                <input type="email" id="form-email" required placeholder="e.g. john@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-subject">Subject</label>
+                            <input type="text" id="form-subject" required placeholder="Medical training, collaboration, etc.">
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" rows="5" required placeholder="How can I help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loader"><i class="fa-solid fa-circle-notch fa-spin"></i></span>
+                        </button>
+                    </form>
+                    <div class="success-message" id="form-success-message">
+                        <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+                        <h3>Thank You!</h3>
+                        <p>Your message has been sent successfully. Ahmed will get back to you shortly.</p>
+                        <button class="btn btn-secondary btn-sm" id="btn-reset-form">Send Another Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo"><span class="logo-accent">A.</span>Fadel</a>
+                <p>Bridging Medicine and Tech. Aspiring General Surgery Surgeon.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact-summary">
+                <h4>Connect</h4>
+                <p>Email: <a href="mailto:mrabofadell@gmail.com">mrabofadell@gmail.com</a></p>
+                <p>Phone: <a href="tel:+201012827615">+20 101 282 7615</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 Ahmed Fadel R. Salem. All rights reserved.</p>
+                <p>Designed with clinical precision & technological innovation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal for Certificates -->
+    <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+        <div class="lightbox-content-wrapper">
+            <div class="lightbox-img-container">
+                <img id="lightbox-img" src="" alt="Enlarged certificate">
+            </div>
+            <div class="lightbox-details">
+                <h3 id="modal-title">Certificate Title</h3>
+                <p id="modal-desc">Certificate description details...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
